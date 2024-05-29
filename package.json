@@ -1,0 +1,20 @@
+{
+  "name": "flower",
+  "version": "1.0.0",
+  "main": "./js/index.js",
+  "scripts": {
+    "back-end": "json-server --watch db.json --port 3001",
+    "front-end": "parcel ./pages/main.html --open --port 3005"
+  },
+  "author": "y",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.2",
+    "sass": "^1.59.3"
+  },
+  "devDependencies": {
+    "parce": "^1.2.8"
+  },
+  "keywords": [],
+  "description": ""
+}
